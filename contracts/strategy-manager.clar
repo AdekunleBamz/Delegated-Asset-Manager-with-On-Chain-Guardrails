@@ -6,3 +6,5 @@
 (define-constant ERR-STRATEGY-FAIL (err u5001))
 
 (define-public (execute (amount uint)) (begin (ok true)))
+
+(define-private (do-swap (amount uint)) (contract-call? .mock-dex swap amount))
