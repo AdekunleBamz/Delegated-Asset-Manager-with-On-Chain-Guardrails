@@ -8,3 +8,5 @@
 (define-public (execute (amount uint)) (begin (ok true)))
 
 (define-private (do-swap (amount uint)) (contract-call? .mock-dex swap amount))
+
+(define-private (check-profit (start uint) (end uint)) (>= end start))
