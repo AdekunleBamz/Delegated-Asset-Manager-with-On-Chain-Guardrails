@@ -1,0 +1,7 @@
+[accounts.deployer]
+mnemonic = "fetch outside black test wash cover just ignore knoll whim hole push"
+balance = 100000000000000
+
+[accounts.wallet_1]
+mnemonic = "spoil sock coyote spirit style exotic distinct barely worth box clip addict"
+balance = 100000000000000
