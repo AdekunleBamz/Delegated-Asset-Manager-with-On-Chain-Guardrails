@@ -10,3 +10,5 @@
 (define-private (do-swap (amount uint)) (contract-call? .mock-dex swap amount))
 
 (define-private (check-profit (start uint) (end uint)) (>= end start))
+
+(define-map trade-logs uint {profit: bool, amount: uint}) (define-data-var log-index uint u0)
