@@ -12,3 +12,5 @@
 (define-data-var paused bool false) (define-public (set-paused (state bool)) (begin (asserts! (is-eq tx-sender (var-get contract-admin)) ERR-NOT-AUTH) (ok (var-set paused state))))
 
 (define-read-only (get-paused) (var-get paused))
+
+;; Governance Initialized
