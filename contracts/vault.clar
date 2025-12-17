@@ -1,5 +1,7 @@
 
 (define-constant ERR-VAULT-AUTH (err u4001))
+(define-constant ERR-MIN-OUT (err u4002))
+(define-constant ERR-MIN-OUT (err u4002))
 
 (define-data-var locked-funds uint u0)
 
