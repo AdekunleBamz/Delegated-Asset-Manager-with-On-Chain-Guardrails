@@ -1,7 +1,1 @@
-[accounts.deployer]
-mnemonic = "sound practice mess combine wide fine mention spread biology daring frequent convince"
-balance = 100000000000000
-
-[accounts.wallet_1]
-mnemonic = "coyote spin barely worth box clip addict spoil sock spirit style exotic"
-balance = 100000000000000
+# No accounts explicitly defined, let Clarinet use defaults if possible
