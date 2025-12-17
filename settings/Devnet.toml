@@ -8,9 +8,9 @@ delay_between_blocks = 500
 events_observer = { endpoint = "ws://localhost:3700", auth_token = "devnet" }
 
 [accounts.deployer]
-mnemonic = "fetch outside black test wash cover just ignore knoll whim hole push"
+mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about"
 balance = 100000000000000
 
 [accounts.wallet_1]
-mnemonic = "spoil sock coyote spirit style exotic distinct barely worth box clip addict"
+mnemonic = "coyote spin barely worth box clip addict spoil sock spirit style exotic"
 balance = 100000000000000
