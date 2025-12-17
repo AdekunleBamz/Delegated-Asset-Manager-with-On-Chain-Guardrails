@@ -8,3 +8,5 @@
 (define-public (set-manager (mgr principal) (allowed bool)) (begin (asserts! (is-eq tx-sender (var-get contract-admin)) ERR-NOT-AUTH) (ok (map-set managers mgr allowed))))
 
 (define-read-only (is-manager (mgr principal)) (default-to false (map-get? managers mgr)))
+
+(define-data-var paused bool false) (define-public (set-paused (state bool)) (begin (asserts! (is-eq tx-sender (var-get contract-admin)) ERR-NOT-AUTH) (ok (var-set paused state))))
