@@ -15,6 +15,8 @@
 (define-data-var locked-funds uint u0)
 (define-data-var total-deposited uint u0)
 (define-data-var total-withdrawn uint u0)
+(define-data-var daily-withdrawal-limit uint u10000000) ;; 10M microSTX per day
+(define-data-var last-reset-block uint u0)
 
 ;; Data maps
 (define-map user-deposits principal uint)
