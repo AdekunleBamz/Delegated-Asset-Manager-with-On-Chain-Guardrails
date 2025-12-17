@@ -10,6 +10,7 @@
 (define-constant ERR-INSUFFICIENT-FUNDS (err u4003))
 (define-constant ERR-PAUSED (err u4004))
 (define-constant ERR-NOT-MANAGER (err u4005))
+(define-constant ERR-EMERGENCY-SHUTDOWN (err u4006))
 
 ;; Data variables
 (define-data-var locked-funds uint u0)
