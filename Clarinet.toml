@@ -7,34 +7,34 @@ cache_dir = "./.cache"
 
 [contracts.traits]
 path = "contracts/traits.clar"
-clarity_version = 3
-epoch = 3.0
+clarity_version = 4
+epoch = 3.3
 
 [contracts.vault]
 path = "contracts/vault.clar"
-clarity_version = 3
-epoch = 3.0
+clarity_version = 4
+epoch = 3.3
 depends_on = ["traits", "guardrails"]
 
 [contracts.guardrails]
 path = "contracts/guardrails.clar"
-clarity_version = 3
-epoch = 3.0
+clarity_version = 4
+epoch = 3.3
 
 [contracts.mock-dex]
 path = "contracts/mock-dex.clar"
-clarity_version = 3
-epoch = 3.0
+clarity_version = 4
+epoch = 3.3
 
 [contracts.governance]
 path = "contracts/governance.clar"
-clarity_version = 3
-epoch = 3.0
+clarity_version = 4
+epoch = 3.3
 
 [contracts.strategy-manager]
 path = "contracts/strategy-manager.clar"
-clarity_version = 3
-epoch = 3.0
+clarity_version = 4
+epoch = 3.3
 depends_on = ["traits", "vault", "guardrails", "mock-dex"]
 
 [repl.analysis]

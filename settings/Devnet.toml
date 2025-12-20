@@ -1,0 +1,16 @@
+[network]
+name = "devnet"
+boot_contracts = ["pox", "cost-voting", "bns"]
+
+[devnet]
+auto_mine_blocks = true
+delay_between_blocks = 500
+events_observer = { endpoint = "ws://localhost:3700", auth_token = "devnet" }
+
+[accounts.deployer]
+mnemonic = "sound practice mess combine wide fine mention spread biology daring frequent convince"
+balance = 100000000000000
+
+[accounts.wallet_1]
+mnemonic = "coyote spin barely worth box clip addict spoil sock spirit style exotic"
+balance = 100000000000000
