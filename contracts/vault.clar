@@ -10,13 +10,14 @@
 (define-constant ERR-INSUFFICIENT-FUNDS (err u4003))
 (define-constant ERR-PAUSED (err u4004))
 (define-constant ERR-NOT-MANAGER (err u4005))
+(define-constant ERR-EMERGENCY-SHUTDOWN (err u4006))
 
 ;; Data variables
 (define-data-var locked-funds uint u0)
 (define-data-var total-deposited uint u0)
 (define-data-var total-withdrawn uint u0)
-(define-data-var daily-withdrawal-limit uint u10000000) ;; 10M microSTX per day
-(define-data-var last-reset-block uint u0)
+(define-data-var protocol-fee-rate uint u10) ;; 0.1% fee (10 basis points)
+(define-data-var collected-fees uint u0)
 
 ;; Data maps
 (define-map user-deposits principal uint)
