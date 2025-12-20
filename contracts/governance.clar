@@ -9,6 +9,8 @@
 ;; Data variables
 (define-data-var contract-admin principal tx-sender)
 (define-data-var paused bool false)
+(define-data-var min-signatures uint u1)
+(define-data-var proposal-count uint u0)
 
 ;; Data maps
 (define-map managers principal bool)
