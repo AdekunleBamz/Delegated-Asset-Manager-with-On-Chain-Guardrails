@@ -16,6 +16,8 @@
 (define-data-var locked-funds uint u0)
 (define-data-var total-deposited uint u0)
 (define-data-var total-withdrawn uint u0)
+(define-data-var protocol-fee-rate uint u10) ;; 0.1% fee (10 basis points)
+(define-data-var collected-fees uint u0)
 
 ;; Data maps
 (define-map user-deposits principal uint)
