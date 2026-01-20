@@ -10,8 +10,30 @@
     "test:report": "vitest run -- --coverage --costs",
     "test:watch": "chokidar \"tests/**/*.ts\" \"contracts/**/*.clar\" -c \"npm run test:report\""
   },
-  "author": "",
+  "author": "AdekunleBamz",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdekunleBamz/Delegated-Asset-Manager-with-On-Chain-Guardrails.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdekunleBamz/Delegated-Asset-Manager-with-On-Chain-Guardrails/issues"
+  },
+  "homepage": "https://github.com/AdekunleBamz/Delegated-Asset-Manager-with-On-Chain-Guardrails#readme",
+  "keywords": [
+    "stacks",
+    "clarity",
+    "blockchain",
+    "defi",
+    "dao",
+    "treasury",
+    "asset-management",
+    "delegation",
+    "guardrails",
+    "smart-contracts",
+    "trading",
+    "dex"
+  ],
   "dependencies": {
     "@stacks/clarinet-sdk": "^3.10.0",
     "@types/node": "^24.4.0",
